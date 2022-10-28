@@ -1,0 +1,27 @@
+<div class="cancellation">
+    <form class="border p-3 rounded-3">
+   <div class="row g-0">
+       <div class="col text-center p-2 mb-3">
+           <span class="fs-3">Cancellation</span>
+       </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <label for="Id" class="form-label">Room ID</label>
+            <input type="Id" class="form-control" id="Id">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="d-grid">
+                <button type="submit" [disabled]="false" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+   </form>
+</div>
+
+<nav>
+    <label for="Reservation" class="form-label">Book again ? </label>
+    <a routerLink="/reservation" routerLinkActive="active">click here</a>
+</nav>
