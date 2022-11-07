@@ -1,0 +1,15 @@
+form{
+    width: 500px;
+}
+.reservation{
+    background-color:bisque;
+}
+.default{
+
+    display:none;
+}
+.btnAfterSubmit{
+    float:right;
+    display:block;
+    color:green;
+}
